@@ -22,52 +22,45 @@ export const BaseInfo = {
   export const projectData = [
     {
       id: 1,
-      title: "E-commerce Website",
-      image: "/images/p-1.jpeg",
-      url: "https://github.com/ZeeshanRamzan06/E-commerce-web",
-      skills: ["React", "NodeJs", "MongoDb"],
-    },
-    {
-      id: 2,
       title: "Real-time Chat Application",
       image: "/images/chatapplication.png",
       url: "https://github.com/malirazaansari/RealTimeChatApplication",
-      skills: ["React", "NodeJs", "MongoDb"],
+      skills: ["React.js", "Node.js", "MongoDb"],
     },
     {
       id: 2,
-      title: "Food Website",
-      image: "/images/p-2.png",
-      url: " https://food-fries.vercel.app/",
-      skills: ["React","JavaScript", "CSS"]
+      title: "Q Telecom's IM System",
+      image: "/images/mockup.png",
+      url: "https://github.com/malirazaansari/Inventory-Management-System-in-Next-js",
+      skills: ["Next.js", "MongoDb"],
     },
     {
       id: 3,
-      title: "My Portfolio",
-      image: "/images/p-3.png",
-      url: "/",
-      skills: ["Next Js", "JavaScript", "Tailwind"]
+      title: "Hazen Servey’s Aplplication",
+      image: "/images/hazenproject.jpg",
+      url: "https://github.com/malirazaansari/Survey_Questioner_react_and_firebase",
+      skills: ["React.js", "TailwindCSS", "Firebase"],
     },
     {
       id: 4,
-      title: "Real Estate Contract",
-      image: "/images/p-5.png",
-      url: "https://github.com/ZeeshanRamzan06/RealEstate_contract",
-      skills: ["Solidity", "Blockchain"]
+      title: "My Portfolio",
+      image: "/images/portfoliopic.webp",
+      url: "https://github.com/malirazaansari/Protfolio_project",
+      skills: ["Next.js", "TypeScript", "Tailwind"]
     },
     {
       id: 5,
-      title: "Vegitable and Fruite Web",
-      image: "/images/p2.png",
-      url: "https://fructify-e09b9.web.app/",
-      skills: ["Html", "CSS", "JavaScript"]
+      title: "Ride Booking App",
+      image: "/images/rideproject.png",
+      url: "https://github.com/malirazaansari/Ride_Booking_app",
+      skills: ["React.js", "Node.js"]
     },
     {
       id: 6,
-      title: "Weather App",
-      image: "/images/p-4.png",
-      url: "https://weather-app-self-nine-75.vercel.app/",
-      skills: ["Html", "CSS", "JavaScript"]
+      title: "React + BlockChain and Smart Contracts",
+      image: "/images/R&BLIntproject.png",
+      url: "https://github.com/malirazaansari/React-BlockChain_Integration",
+      skills: ["React.js", "Solidity", "BlockChain"]
     }
   ];
   
