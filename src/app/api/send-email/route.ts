@@ -17,12 +17,14 @@ export async function POST(req: NextRequest) {
 
     // Check for required fields
     if (!firstName || !lastName || !email || !subject || !message) {
+      console.error('Validation Error: Missing required fields.');
       return NextResponse.json({ error: 'All fields are required.' }, { status: 400 });
     }
 
     // Validate email format
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailRegex.test(email)) {
+      console.error('Validation Error: Invalid email address.');
       return NextResponse.json({ error: 'Invalid email address.' }, { status: 400 });
     }
 
@@ -45,19 +47,23 @@ export async function POST(req: NextRequest) {
       text: `
         Name: ${firstName} ${lastName}
         Email: ${email}
-        Phone: ${phone?.trim() || 'Not Provided'}
+        Phone: ${phone ? phone.trim() : 'Not Provided'}
         Subject: ${subject}
         Message: ${message}
       `,
     };
 
     // Send the email
-    const result = await transporter.sendMail(mailOptions);
-    console.log('Email sent successfully:', result);
-
-    return NextResponse.json({ message: 'Email sent successfully!' }, { status: 200 });
+    try {
+      const result = await transporter.sendMail(mailOptions);
+      console.log('Email sent successfully:', result);
+      return NextResponse.json({ message: 'Email sent successfully!' }, { status: 200 });
+    } catch (sendError) {
+      console.error('Error sending email:', sendError);
+      return NextResponse.json({ error: 'Failed to send email. Please try again later.' }, { status: 500 });
+    }
   } catch (error) {
-    console.error('Error sending email:', error instanceof Error ? error.message : error);
+    console.error('Unexpected Error:', error instanceof Error ? error.message : error);
     return NextResponse.json({ error: 'Failed to send email. Please try again later.' }, { status: 500 });
   }
 }
