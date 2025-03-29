@@ -44,9 +44,9 @@ const About = () => {
                 </div>
             </div>
                 {/*stats content */}
-                <div 
-  data-aos="zoom-in" 
-  data-aos-anchor-placement="top-center" 
+                <div
+  data-aos="zoom-in"
+  data-aos-anchor-placement="top-center"
   data-aos-delay="150"
   className="gap-8 md:gap-12 grid grid-cols-2 bg-gray-300 dark:bg-gray-900 px-4 sm:px-8 md:px-12 lg:px-20 py-8"
 >
@@ -92,7 +92,7 @@ const About = () => {
 </div>
 
 
-            
+
         </div>
   {/* Education and Experinece part  */}
         <div className="relative mt-[10rem] px-6">
@@ -127,10 +127,52 @@ const About = () => {
                 </h3>
                 <p className="text-gray-600 dark:text-gray-400">Octaloop Technologies</p>
                 <p className="text-gray-500 dark:text-gray-500">
-                  Jan 2025 - Present
+                  Oct 2024 - Present
                 </p>
+                <ul className="mt-2 ml-6 text-gray-600 dark:text-gray-400 list-disc">
+                  <li>
+                  Refined 3 Mern Stack projects here including Chat application with 100ms latency and ride-booking application handling
+500+ daily requests.
+
+                  </li>
+                  <li>
+                  Integrated blockchain functionalities in a ReactJS project, enabling NFT minting and improving security, resulting in a
+20% faster transaction processing time.
+
+                  </li>
+                  <li>
+                  Re-engineered a ride-booking application with NextJS, boosting page load speed by 40% and improving performance to
+support 1,000+ active users per day.
+</li>
+                </ul>
               </div>
               {/* Experience Item 2 */}
+              <div
+                className="relative flex flex-col gap-2 bg-white dark:bg-gray-800 shadow-lg p-6 border border-gray-200 dark:border-gray-600 rounded-lg"
+                data-aos="fade-up"
+              >
+                <h3 className="font-bold text-blue-700 dark:text-white text-xl">
+                  Back-End Developer
+                </h3>
+                <p className="text-gray-600 dark:text-gray-400">CodeViks (Part Time)</p>
+                <p className="text-gray-500 dark:text-gray-500">
+                  Sep - Dec 2024
+                </p>
+                <ul className="mt-2 ml-6 text-gray-600 dark:text-gray-400 list-disc">
+                  <li>
+                  Made efficient backend APIs and services to boost Perfomance by 25% using NodeJS and ExpreessJS.
+                  </li>
+                  <li>
+                  Enhanced backend performance for a business website, decreasing load times and responsiveness by 40% through
+database optimization and optimized API management.
+                  </li>
+                  <li>
+                  Constructed a well-organized database and API framework to handle hierarchical user progression, referral tracking,
+and admin-managed task assignments with maximum efficiency.
+                   </li>
+                </ul>
+              </div>
+               {/* Experience Item 3 */}
               <div
                 className="relative flex flex-col gap-2 bg-white dark:bg-gray-800 shadow-lg p-6 border border-gray-200 dark:border-gray-600 rounded-lg"
                 data-aos="fade-up"
@@ -142,8 +184,20 @@ const About = () => {
                 <p className="text-gray-500 dark:text-gray-500">
                   July - August 2024
                 </p>
+                <ul className="mt-2 ml-6 text-gray-600 dark:text-gray-400 list-disc">
+                  <li>
+                  Completed HTML and CSS courses. building 10+ responsive web pages as hands-on projects.
+                  </li>
+                  <li>
+                  Learned Git for version control and collaborative development. managing 50+ commits and collaborating on 3+ projects
+at a time.
+                  </li>
+                  <li>
+                  Worked on a survey application with ReactJS and Firebase, optimized for handling 100+ responses in real time.
+                   </li>
+                </ul>
               </div>
-               {/* Experience Item 3 */}
+               {/* Experience Item 4 */}
                <div
                 className="relative flex flex-col gap-2 bg-white dark:bg-gray-800 shadow-lg p-6 border border-gray-200 dark:border-gray-600 rounded-lg"
                 data-aos="fade-up"

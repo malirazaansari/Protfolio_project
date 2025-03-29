@@ -4,21 +4,21 @@ export const BaseInfo = {
     description:
       "I love creating modern and user-friendly solutions using the latest technologies. My focus is on solving problems and building applications that make a real difference while keeping things simple and effective.",
     profilePic: "/images/alirazawebpic.webp",
-    myCv:"/images/Ali Raza.pdf",
+    myCv:"/images/AliRazaOverLeef.pdf",
   };
-  
+
   export const aboutInfo = {
     title: "Crafting Web Application with Passion and Precision",
     description:
       "I'm Ali Raza, a recent Software Engineering graduate based in Lahore, Pakistan. I thrive on tackling challenges across various domains. Portfolio highlights innovation, while continuous learning fuels impactful tech contributions. Reach out anytime for assistance or inquiries! 😊",
     Linesofcode: "40k+",
     experience: "1+",
-    project: "20+",
-    certificate: "10+",
+    project: "10+",
+    certificate: "5+",
   };
-  
- 
-  
+
+
+
   export const projectData = [
     {
       id: 1,
@@ -53,7 +53,7 @@ export const BaseInfo = {
       title: "Ride Booking App",
       image: "/images/rideproject.png",
       url: "https://github.com/malirazaansari/Ride_Booking_app",
-      skills: ["React.js", "Node.js"]
+      skills: ["React.js", "Node.js", "Next.js", "MongoDb"]
     },
     {
       id: 6,
@@ -63,9 +63,9 @@ export const BaseInfo = {
       skills: ["React.js", "Solidity", "BlockChain"]
     }
   ];
-  
+
   export const skillsData = [
-    
+
     {
       id: 3,
       title: "JavaScript",
@@ -127,22 +127,24 @@ export const BaseInfo = {
       percent: "50%",
     },
   ];
-  
+
   export const clientReviews = [
     {
-      name: "John Doe",
+      name: "Azan Laraib",
       review:
-        "Exceptional service! The team delivered exactly what we needed on time. Very professional",
-      rating: 5,
+        "Exceptional service! He delivered exactly what we needed on time. Very professional",
+      rating: 4.7,
       profession: "Marketing Manager",
+      project: "Expense Tracker",
       image: "/images/u1.jpg",
     },
     {
-      name: "Jane Smith",
+      name: "Bilal",
       review:
-        "Highly skilled developers who understand the client's vision and execute perfectly.",
+        "Highly skilled Backenddeveloperwho understand the client's vision and execute perfectly.",
       rating: 4.8,
-      profession: "Business Owner",
+      profession: "Sales Search Company",
+      project: "Social Media API's Implementation",
       image: "/images/u2.jpg",
     },
     {
@@ -151,6 +153,7 @@ export const BaseInfo = {
         "Great communication and excellent results. Our new site performs beautifully.",
       rating: 4.6,
       profession: "Project Coordinator",
+      project: "Social Media API Implementation",
       image: "/images/u3.jpg",
     },
     {
@@ -159,19 +162,20 @@ export const BaseInfo = {
         "Professional, efficient, and highly knowledgeable. Would definitely recommend their services!",
       rating: 4.9,
       profession: "Creative Director",
+      project: "Social Media API Implementation",
+
       image: "/images/u4.jpg",
     },
   ];
-  
-  
-  
+
+
+
   export const contactData = {
     phone: "+92 315-6195281",
     email: "malirazaansari4@gmail.com",
     address: "Lahore , Pakistan",
     linkedin: "https://www.linkedin.com/in/malirazaansari",
     twitter: "https://x.com/MAliRazaAnsari",
-    whatsapp: "https://web.whatsapp.com/",
+    whatsapp: "https://web.whatsapp.com/send/?phone=+923156195281",
     instagram: "https://www.instagram.com/mali_razaansari/"
   };
-  
