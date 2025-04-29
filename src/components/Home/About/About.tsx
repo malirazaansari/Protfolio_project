@@ -117,6 +117,19 @@ const About = () => {
               My Experience
             </h2>
             <div className="space-y-6">
+                 {/* Experience Item 5 */}
+              <div
+                className="relative flex flex-col gap-2 bg-white dark:bg-gray-800 shadow-lg p-6 border border-gray-200 dark:border-gray-600 rounded-lg"
+                data-aos="fade-up"
+              >
+                <h3 className="font-bold text-blue-700 dark:text-white text-xl">
+                  Full Stack Developer
+                </h3>
+                <p className="text-gray-600 dark:text-gray-400">Ml Bench</p>
+                <p className="text-gray-500 dark:text-gray-500">
+                 Apr 2025 - Persent
+                </p>
+              </div>
               {/* Experience Item 1 */}
               <div
                 className="relative flex flex-col gap-2 bg-white dark:bg-gray-800 shadow-lg p-6 border border-gray-200 dark:border-gray-600 rounded-lg"
@@ -127,23 +140,23 @@ const About = () => {
                 </h3>
                 <p className="text-gray-600 dark:text-gray-400">Octaloop Technologies</p>
                 <p className="text-gray-500 dark:text-gray-500">
-                  Oct 2024 - Present
+                  Oct 2024 - Apr 2025
                 </p>
                 <ul className="mt-2 ml-6 text-gray-600 dark:text-gray-400 list-disc">
                   <li>
                   Refined 3 Mern Stack projects here including Chat application with 100ms latency and ride-booking application handling
-500+ daily requests.
+                    500+ daily requests.
 
                   </li>
                   <li>
                   Integrated blockchain functionalities in a ReactJS project, enabling NFT minting and improving security, resulting in a
-20% faster transaction processing time.
+                    20% faster transaction processing time.
 
                   </li>
                   <li>
                   Re-engineered a ride-booking application with NextJS, boosting page load speed by 40% and improving performance to
-support 1,000+ active users per day.
-</li>
+                support 1,000+ active users per day.
+                </li>
                 </ul>
               </div>
               {/* Experience Item 2 */}
@@ -154,7 +167,7 @@ support 1,000+ active users per day.
                 <h3 className="font-bold text-blue-700 dark:text-white text-xl">
                   Back-End Developer
                 </h3>
-                <p className="text-gray-600 dark:text-gray-400">CodeViks (Part Time)</p>
+                <p className="text-gray-600 dark:text-gray-400">CodeViks (Part Time - Remote)</p>
                 <p className="text-gray-500 dark:text-gray-500">
                   Sep - Dec 2024
                 </p>
@@ -164,11 +177,11 @@ support 1,000+ active users per day.
                   </li>
                   <li>
                   Enhanced backend performance for a business website, decreasing load times and responsiveness by 40% through
-database optimization and optimized API management.
+                    database optimization and optimized API management.
                   </li>
                   <li>
                   Constructed a well-organized database and API framework to handle hierarchical user progression, referral tracking,
-and admin-managed task assignments with maximum efficiency.
+                    and admin-managed task assignments with maximum efficiency.
                    </li>
                 </ul>
               </div>
@@ -182,7 +195,7 @@ and admin-managed task assignments with maximum efficiency.
                 </h3>
                 <p className="text-gray-600 dark:text-gray-400">Hazen Tecnologies</p>
                 <p className="text-gray-500 dark:text-gray-500">
-                  July - August 2024
+                  Jul - Aug 2024
                 </p>
                 <ul className="mt-2 ml-6 text-gray-600 dark:text-gray-400 list-disc">
                   <li>
@@ -190,7 +203,7 @@ and admin-managed task assignments with maximum efficiency.
                   </li>
                   <li>
                   Learned Git for version control and collaborative development. managing 50+ commits and collaborating on 3+ projects
-at a time.
+                    at a time.
                   </li>
                   <li>
                   Worked on a survey application with ReactJS and Firebase, optimized for handling 100+ responses in real time.
@@ -203,12 +216,23 @@ at a time.
                 data-aos="fade-up"
               >
                 <h3 className="font-bold text-blue-700 dark:text-white text-xl">
-                  NextJs Developer
+                  Next.js Associate Developer
                 </h3>
-                <p className="text-gray-600 dark:text-gray-400">IFish Tecnologies (Part Time)</p>
+                <p className="text-gray-600 dark:text-gray-400">IFish Tecnologies (Part Time - Hybrid)</p>
                 <p className="text-gray-500 dark:text-gray-500">
-                  March - May 2024
+                  Apr - Jun 2024
                 </p>
+                <ul className="mt-2 ml-6 text-gray-600 dark:text-gray-400 list-disc">
+                  <li>
+                  Successfully developed an Inventory Management System (IMS) for mobile stores to manage inventory, sales, and purchase histories, using Next.js for seamless front-end and back-end integration.
+                  </li>
+                  <li>
+                  Gained valuable mentorship from a senior developer, enhancing my proficiency in Next.js and refining my full-stack development skills.
+                  </li>
+                  <li>
+                  Expanded my expertise in full-stack development, database management, and system optimization through the hands-on experience of this project.
+                   </li>
+                </ul>
               </div>
             </div>
           </div>
@@ -234,7 +258,7 @@ at a time.
                   MNSUAM
                 </p>
                 <p className="text-gray-500 dark:text-gray-500">
-                  Sept 2020 - July 2024
+                  Sep 2020 - Jul 2024
                 </p>
                 <ul className="mt-2 ml-6 text-gray-600 dark:text-gray-400 list-disc">
                   <li>
