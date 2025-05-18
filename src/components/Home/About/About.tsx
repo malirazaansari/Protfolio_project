@@ -18,11 +18,11 @@ const About = () => {
           </p>
           <div className="mt-8">
             <div className="flex items-center space-x-2 mb-6">
-              <div className="flex flex-col justify-center items-center bg-blue-800 w-7 h-7">
+              <div className="flex flex-col justify-center items-center bg-green-800 w-7 h-7">
                 <FaCheck className="text-white" />
               </div>
               <p className="font-bold text-gray-700 dark:text-gray-300 text-sm sm:text-base md:text-lg">
-                Frontend Development
+                Full Stack Development
               </p>
             </div>
             <div className="flex items-center space-x-2 mb-6">
@@ -34,11 +34,11 @@ const About = () => {
               </p>
             </div>
             <div className="flex items-center space-x-2 mb-6">
-              <div className="flex flex-col justify-center items-center bg-green-800 w-7 h-7">
+              <div className="flex flex-col justify-center items-center bg-blue-800 w-7 h-7">
                 <FaCheck className="text-white" />
               </div>
               <p className="font-bold text-gray-700 dark:text-gray-300 text-sm sm:text-base md:text-lg">
-                Full Stack Development
+                Frontend Development
               </p>
             </div>
           </div>
