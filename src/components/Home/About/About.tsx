@@ -126,6 +126,25 @@ const About = () => {
                   <p className="text-gray-500 dark:text-gray-500">
                     Apr 2025 - Persent
                   </p>
+                  <ul className="mt-2 ml-6 text-gray-600 dark:text-gray-400 list-disc">
+                    <li>
+                      Led the full stack development of SnapTrace from scratch,
+                      implementing user/admin roles, real-time processing, and
+                      optimized checkout logic. This resulted in a 35% increase
+                      in order conversions.
+                    </li>
+                    <li>
+                      Redesigned Boodle core modules to improve scalability,
+                      reduce crash rates by 60%, and optimize performance for a
+                      growing user base.
+                    </li>
+                    <li>
+                      Delivered production-ready features on both platforms.
+                      Aligned business requirements with technical
+                      implementation to ensure reliability, responsiveness, and
+                      a seamless user experience.
+                    </li>
+                  </ul>
                 </div>
                 {/* Experience Item 1 */}
                 <div
@@ -160,7 +179,7 @@ const About = () => {
                   </ul>
                 </div>
                 {/* Experience Item 2 */}
-                <div
+                {/* <div
                   className="relative flex flex-col gap-2 bg-white dark:bg-gray-800 shadow-lg p-6 border border-gray-200 dark:border-gray-600 rounded-lg"
                   data-aos="fade-up"
                 >
@@ -189,8 +208,19 @@ const About = () => {
                       and admin-managed task assignments with maximum
                       efficiency.
                     </li>
+                    <li>
+                      In this company I worked as a backend / node js developer.
+                      Worked on a multi-level user expansion platform where
+                      every new user has to invite five additional users to go
+                      to the subsequent task. Implemented and created backend
+                      logic to maintain user logins, task records, and referral
+                      tracking on multi-levels. Used effective database
+                      structure and tuned performance to provide smooth user
+                      growth. Maintained data integrity and security while
+                      supporting dynamic user engagement and system scalability.
+                    </li>
                   </ul>
-                </div>
+                </div> */}
                 {/* Experience Item 3 */}
                 <div
                   className="relative flex flex-col gap-2 bg-white dark:bg-gray-800 shadow-lg p-6 border border-gray-200 dark:border-gray-600 rounded-lg"
