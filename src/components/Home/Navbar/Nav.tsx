@@ -63,7 +63,7 @@ const Nav = ({ openNav }: Props) => {
           {/* Navigation Links */}
           <div className="hidden lg:flex items-center space-x-8">
             
-          {['about', 'contact','customer', 'projects'].map((section) => (
+          {['about', 'projects','customer', 'contact'].map((section) => (
               <Link
                 key={section}
                 href={`#${section}`}
