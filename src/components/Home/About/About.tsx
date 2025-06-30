@@ -252,7 +252,7 @@ const About = () => {
                   </ul>
                 </div>
                 {/* Experience Item 4 */}
-                <div
+                {/* <div
                   className="relative flex flex-col gap-2 bg-white dark:bg-gray-800 shadow-lg p-6 border border-gray-200 dark:border-gray-600 rounded-lg"
                   data-aos="fade-up"
                 >
@@ -282,8 +282,19 @@ const About = () => {
                       management, and system optimization through the hands-on
                       experience of this project.
                     </li>
+                    <li>
+                      Successfully created an Inventory Management System (IMS)
+                      for mobile stores to track and manage full inventory,
+                      sales, and purchase histories. Deployed front-end and
+                      integrated back-end features with Next.js to have smooth
+                      data handling. Grateful for the guidance of my senior, who
+                      assisted me in learning Next.js and refining my
+                      development skills. This project extended my knowledge
+                      base in full-stack development, database management, and
+                      system optimization.
+                    </li>
                   </ul>
-                </div>
+                </div> */}
               </div>
             </div>
 
