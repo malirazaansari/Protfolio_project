@@ -2,9 +2,9 @@ export const BaseInfo = {
   name: "Ali Raza",
   position: "Full Stack Web Developer",
   description:
-    "I love creating modern and user-friendly solutions using the latest technologies. My focus is on solving problems and building applications that make a real difference while keeping things simple and effective.",
+    "I enjoy building reliable and scalable backend systems using modern technologies. My focus is on designing robust architectures, solving complex problems, and developing efficient APIs and services that power real-world applications.",
   profilePic: "/images/alirazawebpic.webp",
-  myCv: "/images/AliRazaOverLeef.pdf",
+  myCv: "/images/Ali_Raza_2.pdf",
 };
 
 export const aboutInfo = {

@@ -158,7 +158,7 @@ const About = () => {
                     Octaloop Technologies
                   </p>
                   <p className="text-gray-500 dark:text-gray-500">
-                    Oct 2024 - Apr 2025
+                    Sep 2024 - Apr 2025
                   </p>
                   <ul className="mt-2 ml-6 text-gray-600 dark:text-gray-400 list-disc">
                     <li>
