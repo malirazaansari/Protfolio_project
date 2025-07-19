@@ -3,7 +3,7 @@ export const BaseInfo = {
   position: "Full Stack Web Developer",
   description:
     "I enjoy building reliable and scalable backend systems using modern technologies. My focus is on designing robust architectures, solving complex problems, and developing efficient APIs and services that power real-world applications.",
-  profilePic: "/images/alirazawebpic.webp",
+  profilePic: "/images/alirazaweb.webp",
   myCv: "/images/Ali_Raza_2.pdf",
 };
 
