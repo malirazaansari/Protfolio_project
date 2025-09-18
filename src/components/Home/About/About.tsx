@@ -120,11 +120,11 @@ const About = () => {
                   data-aos="fade-up"
                 >
                   <h3 className="font-bold text-blue-700 dark:text-white text-xl">
-                    Full Stack Developer
+                    Jr. Full Stack Developer
                   </h3>
                   <p className="text-gray-600 dark:text-gray-400">Ml Bench</p>
                   <p className="text-gray-500 dark:text-gray-500">
-                    Apr 2025 - Persent
+                    Aug 2024 - Persent
                   </p>
                   <ul className="mt-2 ml-6 text-gray-600 dark:text-gray-400 list-disc">
                     <li>
@@ -144,10 +144,25 @@ const About = () => {
                       implementation to ensure reliability, responsiveness, and
                       a seamless user experience.
                     </li>
+                    <li>
+                      Refined Mern Stack projects here including Chat
+                      application with 100ms latency and ride-booking
+                      application handling 500+ daily requests.
+                    </li>
+                    <li>
+                      Integrated blockchain functionalities in a ReactJS
+                      project, enabling NFT minting and improving security,
+                      resulting in a 20% faster transaction processing time.
+                    </li>
+                    <li>
+                      Re-engineered a ride-booking application with NextJS,
+                      boosting page load speed by 40% and improving performance
+                      to support 1,000+ active users per day.
+                    </li>
                   </ul>
                 </div>
                 {/* Experience Item 1 */}
-                <div
+                {/* <div
                   className="relative flex flex-col gap-2 bg-white dark:bg-gray-800 shadow-lg p-6 border border-gray-200 dark:border-gray-600 rounded-lg"
                   data-aos="fade-up"
                 >
@@ -175,6 +190,27 @@ const About = () => {
                       Re-engineered a ride-booking application with NextJS,
                       boosting page load speed by 40% and improving performance
                       to support 1,000+ active users per day.
+                    </li>
+                  </ul>
+                </div> */}
+                <div
+                  className="relative flex flex-col gap-2 bg-white dark:bg-gray-800 shadow-lg p-6 border border-gray-200 dark:border-gray-600 rounded-lg"
+                  data-aos="fade-up"
+                >
+                  <h3 className="font-bold text-blue-700 dark:text-white text-xl">
+                    Full Stack Developer
+                  </h3>
+                  <p className="text-gray-600 dark:text-gray-400">
+                    Exec9 (Part Time)
+                  </p>
+                  <p className="text-gray-500 dark:text-gray-500">
+                    Sep 2025 - Present
+                  </p>
+                  <ul className="mt-2 ml-6 text-gray-600 dark:text-gray-400 list-disc">
+                    <li>
+                      Refining React project here to make it pixel perfect as
+                      per the design and making it responsive. Also adding
+                      awesome animations to make it more interactive.
                     </li>
                   </ul>
                 </div>
