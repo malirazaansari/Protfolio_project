@@ -120,11 +120,32 @@ const About = () => {
                   data-aos="fade-up"
                 >
                   <h3 className="font-bold text-blue-700 dark:text-white text-xl">
+                    Full Stack Developer
+                  </h3>
+                  <p className="text-gray-600 dark:text-gray-400">
+                    Exec9
+                  </p>
+                  <p className="text-gray-500 dark:text-gray-500">
+                    Sep 2025 - Present
+                  </p>
+                  <ul className="mt-2 ml-6 text-gray-600 dark:text-gray-400 list-disc">
+                    <li>
+                      Refining React project here to make it pixel perfect as
+                      per the design and making it responsive. Also adding
+                      awesome animations to make it more interactive.
+                    </li>
+                  </ul>
+                </div>
+                <div
+                  className="relative flex flex-col gap-2 bg-white dark:bg-gray-800 shadow-lg p-6 border border-gray-200 dark:border-gray-600 rounded-lg"
+                  data-aos="fade-up"
+                >
+                  <h3 className="font-bold text-blue-700 dark:text-white text-xl">
                     Jr. Full Stack Developer
                   </h3>
                   <p className="text-gray-600 dark:text-gray-400">Ml Bench</p>
                   <p className="text-gray-500 dark:text-gray-500">
-                    Aug 2024 - Persent
+                    Aug 2024 - Sep 2025
                   </p>
                   <ul className="mt-2 ml-6 text-gray-600 dark:text-gray-400 list-disc">
                     <li>
@@ -162,18 +183,18 @@ const About = () => {
                   </ul>
                 </div>
                 {/* Experience Item 1 */}
-                {/* <div
+                <div
                   className="relative flex flex-col gap-2 bg-white dark:bg-gray-800 shadow-lg p-6 border border-gray-200 dark:border-gray-600 rounded-lg"
                   data-aos="fade-up"
                 >
                   <h3 className="font-bold text-blue-700 dark:text-white text-xl">
-                    Full Stack Developer
+                    Ass. Full Stack Developer
                   </h3>
                   <p className="text-gray-600 dark:text-gray-400">
                     Octaloop Technologies
                   </p>
                   <p className="text-gray-500 dark:text-gray-500">
-                    Sep 2024 - Apr 2025
+                    Aug 2023 - Aug 2024
                   </p>
                   <ul className="mt-2 ml-6 text-gray-600 dark:text-gray-400 list-disc">
                     <li>
@@ -192,28 +213,8 @@ const About = () => {
                       to support 1,000+ active users per day.
                     </li>
                   </ul>
-                </div> */}
-                <div
-                  className="relative flex flex-col gap-2 bg-white dark:bg-gray-800 shadow-lg p-6 border border-gray-200 dark:border-gray-600 rounded-lg"
-                  data-aos="fade-up"
-                >
-                  <h3 className="font-bold text-blue-700 dark:text-white text-xl">
-                    Full Stack Developer
-                  </h3>
-                  <p className="text-gray-600 dark:text-gray-400">
-                    Exec9 (Part Time)
-                  </p>
-                  <p className="text-gray-500 dark:text-gray-500">
-                    Sep 2025 - Present
-                  </p>
-                  <ul className="mt-2 ml-6 text-gray-600 dark:text-gray-400 list-disc">
-                    <li>
-                      Refining React project here to make it pixel perfect as
-                      per the design and making it responsive. Also adding
-                      awesome animations to make it more interactive.
-                    </li>
-                  </ul>
                 </div>
+                
                 {/* Experience Item 2 */}
                 {/* <div
                   className="relative flex flex-col gap-2 bg-white dark:bg-gray-800 shadow-lg p-6 border border-gray-200 dark:border-gray-600 rounded-lg"
@@ -269,7 +270,7 @@ const About = () => {
                     Hazen Tecnologies
                   </p>
                   <p className="text-gray-500 dark:text-gray-500">
-                    Jul - Aug 2024
+                    Jul - Aug 2023
                   </p>
                   <ul className="mt-2 ml-6 text-gray-600 dark:text-gray-400 list-disc">
                     <li>
